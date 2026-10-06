@@ -9,15 +9,11 @@ export function ProfileScreen({ navigation }) {
 
   return (
     <View style={styles.screen}>
-      <AppBar title="Perfil del estudiante" />
+      <AppBar title="Inicio" />
 
       <ScrollView contentContainerStyle={styles.content}>
-        <View style={styles.avatar}>
-          <Text style={styles.avatarText}>OV</Text>
-        </View>
-
         <View style={styles.card}>
-          <Text style={styles.heading}>Información personal</Text>
+          <Text style={styles.heading}>Mi humilde informacion</Text>
           <InfoRow label="Nombre" value={student.name} />
           <InfoRow label="Carnet" value={student.studentId} />
           <InfoRow label="Grupo y sección" value={student.groupAndSection} />
