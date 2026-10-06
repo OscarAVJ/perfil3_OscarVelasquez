@@ -1,26 +1,29 @@
 {
   "expo": {
-    "name": "perfil3_OscarVelasquez",
+    "name": "Perfil 3 - Oscar Velasquez",
     "slug": "perfil3_OscarVelasquez",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/OvIcon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/OvIcon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0B4FBA"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.oscarvelasquez.perfil3",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/OvIcon.png",
+        "backgroundColor": "#0B4FBA"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
